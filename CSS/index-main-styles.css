@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+
+.menu {
+  list-style: none;
+  display: inline;
+}
+
+.logo {
+  height: 200px;
+  width: 200px;
+}
+
+.header {
+  font-size: 200%;
+}
+
+.navbar-logo {
+  height: 50px;
+  width: 50px;
+}
+
+.icons {
+  text-align: center;
+  font-size: 4em;
+}
+
+.home-text {
+  text-align: center;
+}
+
+.footer-text {
+  margin-bottom: 0;
+}
+
+.footer {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  color: white;
+  height: 140px;
+  background-color: #333;
+  border-radius: 100px 100px 0px 0px;
+  text-align: center;
+}
+
+.icons-footer {
+  font-size: 2em;
+}
+
+.footer a:link, .icons p a:link, .footer a:visited {
+  color: white;
+  text-decoration: none;
+}

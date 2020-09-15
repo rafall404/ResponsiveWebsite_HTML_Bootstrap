@@ -1,0 +1,181 @@
+* {
+    box-sizing: border-box;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+
+.match-box {
+    background-color: #333;
+    font-family: seriff;
+    font-size: 18px;
+    border-radius: 20px;
+    color: white;
+}
+
+}
+
+.premier-league {
+
+    color: white;
+    font-family: monospace;
+    font-size: 17px;
+    margin-top: 10px;
+}
+
+#premierlogo {
+    width: 100px;
+}
+
+table {
+
+    width: 380px;
+    height: 300px;
+
+
+}
+tr {
+    border-top: 1px solid blue;
+}
+
+tr:hover {
+    background: green;
+}
+
+tr:nth-child(2) {
+    background: lightgray;
+}
+
+tr:nth-child(1):hover {
+    background: none;
+}
+
+.box {
+    border-top: 1px white solid;
+    margin-top: 5px;
+}
+
+
+.side-picture {
+    width: 400px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.first {
+    width: px;
+}
+
+.text-of-logo {
+    color: #666;
+
+}
+
+.middle {
+    background-color: green;
+    color: black;
+}
+
+.date {
+    color: midnightblue;
+    font-size: 19px;
+    font-family: sans-serif;
+    background-color: white;
+}
+
+.date-right {
+    border-left: 2px solid #555;
+    font-family: serif;
+    font-size: 22px;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+}
+
+.container:hover .side-pictures {
+    opacity: 0.6;
+}
+
+.container:hover .middle {
+    opacity: 1;
+}
+
+#Arsenal {
+    width: 70px;
+
+}
+
+@media only screen and (max-width: 800px) {
+    table {
+        width: 600px;
+        height: 400px;
+    }
+
+    table {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #premierlogo {
+        margin-left: 70px;
+    }
+
+    .side-picture {
+        width: 600px;
+        height: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .last-picture {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .logo {
+        width: 80px;
+        height: 80px;
+        margin-bottom: 5px;
+        margin-right: 5px;
+    }
+
+    .side-picture {
+        width: 100%;
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    table {
+        width: 300px;
+        height: 300px;
+    }
+
+
+}
+@media only screen and (max-width: 1000px){
+    table{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #premierlogo{
+      margin-left: 250px;  
+    }
+}

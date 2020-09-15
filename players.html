@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="utf-8">
+  <title>VIA Club</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <link href="CSS/index-main-styles.css" type="text/css" rel="stylesheet">
+  <link href="CSS/players.css" type="text/css" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+</head>
+
+<body>
+
+  <div class="container-fluid head">
+    <div class="row">
+      <div class="col-12 p-0">
+        <img id="head1" src="images/head1.jpg" class="img-fluid rounded mx-auto d-none d-md-block " alt="Responsive image">
+      </div>
+    </div>
+  </div>
+
+  <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+    <img src="images/logo2.png" class="d-inline-block align-top navbar-logo" alt="">
+    <a class="navbar-brand" href="#">VIA Club</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="upcoming-matches.html">Upcoming matches</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="players.html#">Players</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            About Us
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="history.html">History</a>
+            <a class="dropdown-item" href="open-hours.html">Open hours</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="contact.html">Contact</a>
+          </div>
+        </li>
+
+      </ul>
+      <form class="form-inline my-2 my-lg-0" method="get" action="http://www.google.com/search">
+        <input class="form-control mr-sm-2" type="search" name="q" placeholder="Search in Google" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit" formtarget="_blank">Search</button>
+      </form>
+    </div>
+  </nav>
+
+  <div class="container-fluid  my-3 mx-auto">
+
+    <div class="row ">
+      <div class="col-12 col-xl-3 col-sm-12 col-md-6 mb-3  individual ">
+        <div class="picture-of-player col-12 "><img src="images/player1.jpg" class="img-thumbnail player m-2 mt-3 " alt="player1" title="Rafal" width="90%"></div>
+        <div class="text-of-player col-12  mb-3">
+          <div class="Name">Rafal</div>
+          <div class="Number float-right ">17</div>
+          <div class="surname ">Pierscieniak</div>
+          <div class="row">
+            <div class="flag"><img src="images/republic-of-poland.png" class="flag ml-3"></div>
+            <div class="ml-5 country align-self-center ">Poland</div>
+          </div>
+          <button type="button" class="btn box btn-info mt-4 ml-5" data-toggle="collapse" data-target="#Rafal">...more about Rafal</button>
+          <div id="Rafal" class="collapse about">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </div>
+        </div>
+
+      </div>
+
+
+      <div class="col-12 col-xl-3 col-sm-12 col-md-6 mb-3  individual ">
+        <div class="picture-of-player col-12 "><img src="images/player2.jpg" class="img-thumbnail player m-2 mt-3 mx-auto " width="90%" alt="player2" title="Emmanuel"></div>
+        <div class="text-of-player col-12  mb-3">
+          <div class="Name">Emmanuel</div>
+          <div class="Number float-right ">10</div>
+          <div class="surname ">Simon</div>
+          <div class="row">
+            <div class="flag"><img src="images/nigeria.png" class="flag ml-3"></div>
+            <div class="ml-5 country align-self-center ">Nigeria</div>
+          </div>
+          <button type="button" class="btn box btn-info mt-4 ml-5" data-toggle="collapse" data-target="#Simon">...more about Simon</button>
+          <div id="Simon" class="collapse about">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </div>
+        </div>
+
+      </div>
+
+
+
+
+
+      <div class="col-12 col-xl-3  col-md-6  mb-3 individual ">
+        <div class="picture-of-player col-12 "><img src="images/player3.jpg" class="img-thumbnail player m-2 mt-3 mx-auto" alt="player3" width="90%" title="Matey"></div>
+        <div class="text-of-player col-12  mb-3">
+          <div class="Name">Matey</div>
+          <div class="Number float-right ">04</div>
+          <div class="surname ">Matev</div>
+          <div class="row">
+            <div class="flag"><img src="images/bulgaria.png" class="flag ml-3"></div>
+            <div class="ml-5 country align-self-center ">Bulgaria</div>
+          </div>
+          <button type="button" class="btn box btn-info mt-4 ml-5" data-toggle="collapse" data-target="#Matey">...more about Matey</button>
+          <div id="Matey" class="collapse about">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </div>
+        </div>
+
+      </div>
+
+      <div class="col-12 col-xl-3  col-md-6 individual  mb-3 ">
+        <div class="picture-of-player col-12 "><img src="images/player4.jpg" class="img-thumbnail player m-2 mt-3 mx-auto" alt="player4" width="90%" title="Aleksandrs"></div>
+        <div class="text-of-player col-12  mb-3">
+          <div class="Name">Aleksandrs</div>
+          <div class="Number float-right ">07</div>
+          <div class="surname ">Fjodorovs</div>
+          <div class="row">
+            <div class="flag"><img src="images/latvia.png" class="flag ml-3"></div>
+            <div class="ml-5 country align-self-center ">Latvia</div>
+          </div>
+          <button type="button" class="btn box btn-info mt-4 ml-5" data-toggle="collapse" data-target="#Alex">...more about Alex</button>
+          <div id="Alex" class="collapse about">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="footer">
+        <div class="col-12"><a href="mailto:279471@via.dk" class="footer-text">Feedback</a></div>
+        <div class="col-12"> <a href="about-us.html" class="footer-text">Contact</a></div>
+        <div class="col-12 icons-footer">
+          <p>
+            <a href="https://www.facebook.com/" target="_blank">
+              <i class="fab fa-facebook-square"></i>
+            </a>
+            <a href="https://www.instagram.com/" target="_blank">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://twitter.com/" target="_blank">
+              <i class="fab fa-twitter-square"></i>
+            </a>
+            <a href="https://www.snapchat.com/" target="_blank">
+              <i class="fab fa-snapchat-square"></i>
+            </a>
+          </p>
+        </div>
+        <div class="col-12">
+          <p class="footer-text">&copy; VIA Club, 2019</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>

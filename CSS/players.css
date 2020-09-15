@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+.pic1 {
+  border-right: 2px solid lightgray;
+}
+
+.individual {
+  border: 1px solid lightgray;
+  background-color: #333;
+  border-right: 4px solid lightgray;
+  border-radius: 50px;
+}
+
+.individual:hover {
+  color: red;
+}
+
+.box {
+  background-color: #666;
+  border: 2px solid lightgray;
+  font-family: sans-serif;
+  color: black;
+}
+
+.about {
+  color: black;
+  font-family: cursive;
+  margin-top: 5px;
+}
+
+.player:hover {
+  opacity: 0.6;
+}
+
+.text-of-player {
+  font-family: fantasy;
+}
+
+.surname {
+  font-family: monospace;
+  font-size: 20px;
+}
+
+.flag {
+  width: 40px;
+}
+
+.country {
+  color: white;
+  font-family: sans-serif;
+}
+
+.Number {
+  font-size: 70px;
+  font-family: serif;
+  color: #999
+}
